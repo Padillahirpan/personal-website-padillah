@@ -1,4 +1,6 @@
 import './App.css'
+import workData from './data/work.json'
+import WorkItem from './components/Work'
 
 function App() {
   return (
@@ -11,6 +13,12 @@ function App() {
             complex problems into simple, elegant apps. I love building
             intuitive experiences in Android and web development. I am always
             exploring new ideas to make technology feel more human.
+          </div>
+          <div className="text-xl font-extralight text-left text-gray-600">
+            now expanding into Fullstack web development. This year, I'm diving
+            deep into building modern websites using React, TypeScript, and
+            backend tools — aiming to create seamless, end-to-end digital
+            experiences.
           </div>
 
           <div className="flex flex-wrap items-center gap-x-3 w-fit">
@@ -33,6 +41,16 @@ function App() {
               </a>
             </div>
           </div>
+        </section>
+        <section className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40 ">
+          <h2 className="flex text-sm font-semibold text-zinc-800 dark:text-zinc-100">
+            {workData.title}
+          </h2>
+          <ol className="mt-6 space-y-4">
+            {workData.work.map((item, index) => (
+              <WorkItem item={item} key={index} />
+            ))}
+          </ol>
         </section>
       </div>
     </>
