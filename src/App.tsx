@@ -7,12 +7,12 @@ function App() {
     <>
       <div className="w-3xl h-screen flex flex-col items-left gap-4">
         <section className="flex flex-col items-left gap-4 p-4">
-          <h1 className="text-3xl font-medium text-left">Hi👋</h1>
+          <h1 className="text-3xl font-medium text-left">Hi, I'm Irpan👋</h1>
           <div className="text-xl font-extralight text-left text-gray-600">
-            I'm Irpan Padillah - Software engineer & android developer who turns
-            complex problems into simple, elegant apps. I love building
-            intuitive experiences in Android and web development. I am always
-            exploring new ideas to make technology feel more human.
+            Software engineer & android developer who turns complex problems
+            into simple, elegant apps. I love building intuitive experiences in
+            Android and web development. I am always exploring new ideas to make
+            technology feel more human.
           </div>
           <div className="text-xl font-extralight text-left text-gray-600">
             now expanding into Fullstack web development. This year, I'm diving

@@ -1,17 +1,3 @@
-import ReactLogo from '../assets/react.svg'
-import CakapLogo from '../assets/react.svg'
-import ArgaproLogo from '../assets/react.svg'
-import RollingGloryLogo from '../assets/react.svg'
-import BigioLogo from '../assets/react.svg'
-
-const logoMap: Record<string, string> = {
-  'react.svg': ReactLogo,
-  // add other mappings if you have different logos
-  // 'cakap.svg': CakapLogo,
-  // 'argapro.svg': ArgaproLogo,
-  // etc.
-}
-
 type WorkItemProps = {
   item: {
     company: string
@@ -24,13 +10,11 @@ type WorkItemProps = {
 }
 
 const WorkItem = ({ item }: WorkItemProps) => {
-  const logoSrc =
-    item.logo && logoMap[item.logo] ? logoMap[item.logo] : ReactLogo
   return (
     <li className="flex gap-4">
       <div className="relative mt-1 flex h-10 w-10 flex-none items-center justify-center rounded-full shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
         <img
-          src={logoSrc}
+          src={item.logo}
           alt={item.company}
           className="h-9 w-9 rounded-full"
         />

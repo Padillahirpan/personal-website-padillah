@@ -3,7 +3,7 @@
   "work": [
     {
       "company": "Cakap",
-      "logo": "react.svg",
+      "logo": "https://squline-storage.s3.ap-southeast-1.amazonaws.com/selfpaced/material/cakap/images/cakap+icon.png",
       "start": "2022",
       "end": "2025",
       "description": "Cakap is a leading EdTech company in Indonesia, providing online language learning solutions.",
@@ -11,7 +11,7 @@
     },
     {
       "company": "Argapro",
-      "logo": "react.svg",
+      "logo": "https://media.licdn.com/dms/image/v2/C510BAQFHP0Cg88d3qw/company-logo_200_200/company-logo_200_200/0/1630613640929/argapro_logo?e=2147483647&v=beta&t=9tpu32Oub892d5yBCm5Lj0UDJuZEtKG0lEh7hxUHyW0",
       "start": "2021",
       "end": "Present",
       "description": "Argapro is a technology company focused on providing innovative solutions for the agricultural sector.",
@@ -19,7 +19,7 @@
     },
     {
       "company": "Rolling Glory",
-      "logo": "./assets/react.svg",
+      "logo": "https://cdn-images-1.medium.com/v2/resize:fit:1200/1*6QqmSl6ePIccAhsn5H98KA.png",
       "start": "2019",
       "end": "2021",
       "description": "Rolling Glory is a digital agency specializing in mobile app development and design.",
@@ -27,7 +27,7 @@
     },
     {
       "company": "Bigio.id",
-      "logo": "./assets/react.svg",
+      "logo": "https://www.bejana.id/themes/big-theme/assets/img/Beranda/Logo-big.png",
       "start": "2018",
       "end": "2019",
       "description": "Bigio.id is a startup focused on providing digital solutions for small and medium enterprises.",
