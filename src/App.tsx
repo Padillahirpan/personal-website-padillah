@@ -1,11 +1,13 @@
 import './App.css'
 import workData from './data/work.json'
 import WorkItem from './components/Work'
+import projectData from './data/project.json'
+import ProjectItem from './components/Projects'
 
 function App() {
   return (
     <>
-      <div className="w-3xl h-screen flex flex-col items-left gap-4">
+      <div className="w-3xl h-screen flex flex-col items-left gap-4 mb-6">
         <section className="flex flex-col items-left gap-4 p-4">
           <h1 className="text-3xl font-medium text-left">Hi, I'm Irpan👋</h1>
           <div className="text-xl font-extralight text-left text-gray-600">
@@ -42,7 +44,7 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40 ">
+        <section className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
           <h2 className="flex text-sm font-semibold text-zinc-800 dark:text-zinc-100">
             {workData.title}
           </h2>
@@ -51,6 +53,21 @@ function App() {
               <WorkItem item={item} key={index} />
             ))}
           </ol>
+        </section>
+        <section className="rounded-2xl border border-zinc-100 p-6 dark:border-zinc-700/40">
+          <h2 className="flex text-sm font-semibold text-zinc-800 dark:text-zinc-100">
+            {projectData.title}
+          </h2>
+          <div className="grid grid-cols-1 gap-x-4 mt-6 space-y-4 sm:grid-cols-2 ">
+            {projectData.project.map((item, index) => (
+              <ProjectItem item={item} key={index} />
+            ))}
+          </div>
+        </section>
+        <section className="w-full p-6">
+          <p>
+            © {new Date().getFullYear()} Irpan Padillah. All rights reserved.
+          </p>
         </section>
       </div>
     </>

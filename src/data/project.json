@@ -1,0 +1,30 @@
+{
+  "title": "Project",
+  "project": [
+    {
+      "name": "Appukat Go",
+      "ss": "appukat.png",
+      "description": "Argapro is a technology company focused on providing innovative solutions for the agricultural sector."
+    },
+    {
+      "name": "Erha Mobile App",
+      "ss": "erha.png",
+      "description": "Argapro is a technology company focused on providing innovative solutions for the agricultural sector."
+    },
+    {
+      "name": "Chakra Reward",
+      "ss": "chakra.png",
+      "description": "Argapro is a technology company focused on providing innovative solutions for the agricultural sector."
+    },
+    {
+      "name": "Kalcare for Kalbe",
+      "ss": "kalbe.png",
+      "description": "Argapro is a technology company focused on providing innovative solutions for the agricultural sector."
+    },
+    {
+      "name": "Klik Dokter",
+      "ss": "klikdokter.png",
+      "description": "Argapro is a technology company focused on providing innovative solutions for the agricultural sector."
+    }
+  ]
+}
