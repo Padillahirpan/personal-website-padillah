@@ -58,6 +58,27 @@ function App() {
             ))}
           </ol>
         </section>
+        <section className="w-full flex flex-col items-start gap-2">
+          <a
+            href="/resume.pdf"
+            className="border(gray-100 2) inline-flex items-center gap-2 justify-center rounded-md py-2 px-3 text-sm outline-offset-2 transition active:transition-none bg-zinc-50 font-medium text-zinc-900 hover:bg-zinc-100 active:bg-zinc-100 active:text-zinc-900/60 dark:bg-zinc-800/50 dark:text-zinc-300 dark:hover:bg-zinc-800 dark:hover:text-zinc-50 dark:active:bg-zinc-800/50 dark:active:text-zinc-50/70 group mt-6 w-full"
+          >
+            Download formal resume here
+            <svg
+              viewBox="0 0 16 16"
+              fill="none"
+              aria-hidden="true"
+              className="h-4 w-4 stroke-zinc-400 transition group-active:stroke-zinc-600 dark:group-hover:stroke-zinc-50 dark:group-active:stroke-zinc-50"
+            >
+              <path
+                d="M4.75 8.75 8 12.25m0 0 3.25-3.5M8 12.25v-8.5"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></path>
+            </svg>
+          </a>
+        </section>
         <section className="border-zinc-100 pt-6 dark:border-zinc-700/40">
           <h2 className="flex text-xl font-semibold text-zinc-800 dark:text-zinc-100">
             {projectData.title}
