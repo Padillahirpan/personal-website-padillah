@@ -3,6 +3,7 @@ type ProjectItemProps = {
     name: string
     ss: string
     description: string
+    link: string
   }
 }
 
@@ -21,7 +22,7 @@ const Projects = ({ item }: ProjectItemProps) => {
       </div>
 
       <div className="p-5">
-        <a href="#">
+        <a href={item.link} target="_blank" rel="noopener noreferrer">
           <h5 className="mb-2 text-xl text-left font-medium tracking-tight text-gray-900 dark:text-white">
             {item.name}
           </h5>
