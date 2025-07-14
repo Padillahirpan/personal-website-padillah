@@ -2,29 +2,34 @@
   "title": "Project",
   "project": [
     {
+      "name": "Cakap",
+      "ss": "cakap.png",
+      "description": "Cakap is an online learning platform that offers a wide range of courses and training programs to help individuals and organizations enhance their skills and knowledge."
+    },
+    {
       "name": "Appukat Go",
       "ss": "appukat.png",
-      "description": "Argapro is a technology company focused on providing innovative solutions for the agricultural sector."
+      "description": "Appukat Go is a technology company focused on providing innovative solutions for the agricultural sector."
     },
     {
       "name": "Erha Mobile App",
       "ss": "erha.png",
-      "description": "Argapro is a technology company focused on providing innovative solutions for the agricultural sector."
+      "description": "Erha Mobile App is a application for Customer Erha and Doctor to  improve access to skin and hair health and attract more patients. Break down barriers and connect face-to-face with your patients through video visits, chats, and phone calls in as little as five minutes in the privacy and convenience of your home - or wherever you are, much faster than conventional methods."
     },
     {
       "name": "Chakra Reward",
       "ss": "chakra.png",
-      "description": "Argapro is a technology company focused on providing innovative solutions for the agricultural sector."
+      "description": "Chakra is a rewards platform that allows users to earn points and redeem them for various benefits and discounts."
     },
     {
-      "name": "Kalcare for Kalbe",
+      "name": "Kalcare Rewards",
       "ss": "kalbe.png",
-      "description": "Argapro is a technology company focused on providing innovative solutions for the agricultural sector."
+      "description": "Kalcare Rewards is a loyalty program offered by Kalbe, a leading healthcare company in Indonesia, that allows customers to earn points and redeem them for various health and wellness products and services."
     },
     {
-      "name": "Klik Dokter",
+      "name": "KlikDokter",
       "ss": "klikdokter.png",
-      "description": "Argapro is a technology company focused on providing innovative solutions for the agricultural sector."
+      "description": "KlikDokter is a healthcare platform that provides online medical consultations, health information, and services to help individuals manage their health and well-being."
     }
   ]
 }

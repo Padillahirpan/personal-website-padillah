@@ -27,7 +27,7 @@ const Projects = ({ item }: ProjectItemProps) => {
           </h5>
         </a>
         <p className="mb-3 font-normal text-left text-gray-700 dark:text-gray-400">
-          {/* {item.description} */}
+          {item.description}
         </p>
       </div>
     </div>
