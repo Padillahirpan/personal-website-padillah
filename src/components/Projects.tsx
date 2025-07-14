@@ -1,4 +1,4 @@
-type ProjectItemProps = {
+export type ProjectItemProps = {
   item: {
     name: string
     ss: string
@@ -7,7 +7,7 @@ type ProjectItemProps = {
   }
 }
 
-const Projects = ({ item }: ProjectItemProps) => {
+const ProjectItem = ({ item }: ProjectItemProps) => {
   return (
     <div className="border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700">
       <div className="p-4">
@@ -35,4 +35,4 @@ const Projects = ({ item }: ProjectItemProps) => {
   )
 }
 
-export default Projects
+export default ProjectItem
